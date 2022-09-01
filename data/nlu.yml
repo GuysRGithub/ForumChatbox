@@ -1,92 +1,165 @@
 version: "2.0"
 
 nlu:
-- intent: greet
-  examples: |
-    - hey
-    - hello
-    - hi
-    - hello there
-    - good morning
-    - good evening
-    - moin
-    - hey there
-    - let's go
-    - hey dude
-    - goodmorning
-    - goodevening
-    - good afternoon
+  - intent: greet
+    examples: |
+      - hey
+      - hello
+      - hi
+      - hello there
+      - good morning
+      - good evening
+      - moin
+      - hey there
+      - let's go
+      - hey dude
+      - goodmorning
+      - goodevening
+      - good afternoon
 
-- intent: goodbye
-  examples: |
-    - good afternoon
-    - cu
-    - good by
-    - cee you later
-    - good night
-    - bye
-    - goodbye
-    - have a nice day
-    - see you around
-    - bye bye
-    - see you later
+  - intent: goodbye
+    examples: |
+      - good afternoon
+      - cu
+      - good by
+      - cee you later
+      - good night
+      - bye
+      - goodbye
+      - have a nice day
+      - see you around
+      - bye bye
+      - see you later
 
-- intent: affirm
-  examples: |
-    - yes
-    - y
-    - indeed
-    - of course
-    - that sounds good
-    - correct
+  - intent: affirm
+    examples: |
+      - yes
+      - y
+      - indeed
+      - of course
+      - that sounds good
+      - correct
 
-- intent: deny
-  examples: |
-    - no
-    - n
-    - never
-    - I don't think so
-    - don't like that
-    - no way
-    - not really
+  - intent: deny
+    examples: |
+      - no
+      - n
+      - never
+      - I don't think so
+      - don't like that
+      - no way
+      - not really
 
-- intent: mood_great
-  examples: |
-    - perfect
-    - great
-    - amazing
-    - feeling like a king
-    - wonderful
-    - I am feeling very good
-    - I am great
-    - I am amazing
-    - I am going to save the world
-    - super stoked
-    - extremely good
-    - so so perfect
-    - so good
-    - so perfect
+  - intent: mood_great
+    examples: |
+      - perfect
+      - great
+      - amazing
+      - feeling like a king
+      - wonderful
+      - I am feeling very good
+      - I am great
+      - I am amazing
+      - I am going to save the world
+      - super stoked
+      - extremely good
+      - so so perfect
+      - so good
+      - so perfect
 
-- intent: mood_unhappy
-  examples: |
-    - my day was horrible
-    - I am sad
-    - I don't feel very well
-    - I am disappointed
-    - super sad
-    - I'm so sad
-    - sad
-    - very sad
-    - unhappy
-    - not good
-    - not very good
-    - extremly sad
-    - so saad
-    - so sad
+  - intent: mood_unhappy
+    examples: |
+      - my day was horrible
+      - I am sad
+      - I don't feel very well
+      - I am disappointed
+      - super sad
+      - I'm so sad
+      - sad
+      - very sad
+      - unhappy
+      - not good
+      - not very good
+      - extremly sad
+      - so saad
+      - so sad
 
-- intent: bot_challenge
-  examples: |
-    - are you a bot?
-    - are you a human?
-    - am I talking to a bot?
-    - am I talking to a human?
+  - intent: bot_challenge
+    examples: |
+      - are you a bot?
+      - are you a human?
+      - am I talking to a bot?
+      - am I talking to a human?
+
+  - intent: internship_what_is
+    examples: |
+      - What is an internship?
+      - What is internship?
+      - Definition of internship?
+
+  - intent: internship_benefit
+    examples: |
+      - What are the benefits of an internship?
+      - Some benefits of an internship
+      - Benefits of an internship
+      - Please provide benefits of an internship
+      - Why should I do an internship?
+
+  - intent: internship_how_to_find
+    examples: |
+      - How do I find an internship?
+      - How to apply for an internship?
+      - Where can I find an internship?
+      - Find an internship
+      - How do I choose the right internship?
+
+  - intent: internship_when
+    examples: |
+      - When is a good time to start looking for an internship?
+      - When to look for an internship?
+      - When should I apply for an internship
+      - When should I do internship?
+
+  - intent: internship_academic_credit
+    examples: |
+      - Can I get academic credit for my internship?
+      - Do I get academic credit for internship?
+      - Academic credit for internship?
+      - Does internship have academic credit?
+
+  - intent: internship_no_experience
+    examples: |
+      - How can I get a job or internship if I have no experience?
+      - Find internship while having no experience
+      - Internship for the first time?
+      - Apply for an internship with no experience
+
+  - intent: internship_how_to_find_good_job
+    examples: |
+      - What can I do to increase my chances of finding a good job?
+      - What should I do to have a good internship position?
+      - What should I learn to have chance to find a good internship?
+      - Find a better internship
+
+  - intent: internship_salary
+    examples: |
+      - What salary can I expect?
+      - How much salary can I earn for doing internship?
+      - How much paid for an internship?
+      - How much I can earn when internship?
+
+  - intent: internship_work_hour
+    examples: |
+      - How many hours can I work as a student?
+      - How many hours should I work as an internship?
+      - How many hours should I spent for internship?
+
+  - intent: internship_avoid
+    examples: |
+      - What should I avoid in an internship?
+      - Things to avoid in internship?
+
+  - intent: internship_requirement_for_credit
+    examples: |
+      - What are the requirements in order to receive credit for my internship?
+      - Requirements for receive credit for internship
