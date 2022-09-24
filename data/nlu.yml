@@ -163,3 +163,9 @@ nlu:
     examples: |
       - What are the requirements in order to receive credit for my internship?
       - Requirements for receive credit for internship
+
+  - intent: internship_role_and_responsibility
+    examples: |
+      - What are the role and responsibility of me in an internship?
+      - What should I do during an internship?
+      - My responsibility of an internship

@@ -18,7 +18,7 @@ intents:
   - internship_salary
   - internship_work_hour
   - internship_avoid
-  - internship_requirement_to_get_credit
+  - internship_requirement_for_credit
   - internship_role_and_responsibility
 
 responses:

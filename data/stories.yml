@@ -28,3 +28,63 @@ stories:
   - action: utter_did_that_help
   - intent: deny
   - action: utter_goodbye
+
+- story: ask internship_what_is
+  steps:
+    - intent: internship_what_is
+    - action: utter_internship_definition
+
+- story: ask internship_benefit
+  steps:
+    - intent: internship_benefit
+    - action: utter_internship_benefit
+
+- story: ask internship_how_to_find
+  steps:
+    - intent: internship_how_to_find
+    - action: utter_internship_how_to_find
+
+- story: ask internship_when
+  steps:
+    - intent: internship_when
+    - action: utter_internship_when
+
+- story: ask internship_academic_credit
+  steps:
+    - intent: internship_academic_credit
+    - action: utter_internship_academic_credit
+
+- story: ask internship_no_experience
+  steps:
+    - intent: internship_no_experience
+    - action: utter_internship_with_no_experience
+
+- story: ask internship_how_to_find_good_job
+  steps:
+    - intent: internship_how_to_find_good_job
+    - action: utter_internship_how_to_find_good_job
+
+- story: ask internship_what_is
+  steps:
+    - intent: internship_salary
+    - action: utter_internship_salary
+
+- story: ask internship_work_hour
+  steps:
+    - intent: internship_work_hour
+    - action: utter_internship_work_hour
+
+- story: ask internship_avoid
+  steps:
+    - intent: internship_avoid
+    - action: utter_internship_avoid
+
+- story: ask internship_requirement_for_credit
+  steps:
+    - intent: internship_requirement_for_credit
+    - action: utter_internship_requirement_to_get_credit
+
+- story: ask internship_role_and_responsibility
+  steps:
+    - intent: internship_role_and_responsibility
+    - action: utter_internship_role_and_responsibility
