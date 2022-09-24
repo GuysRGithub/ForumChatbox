@@ -1,113 +1,82 @@
-version: "2.0"
-
-intents:
-  - greet
-  - goodbye
-  - affirm
-  - deny
-  - mood_great
-  - mood_unhappy
-  - bot_challenge
-  - internship_what_is
-  - internship_benefit
-  - internship_how_to_find
-  - internship_when
-  - internship_academic_credit
-  - internship_no_experience
-  - internship_how_to_find_good_job
-  - internship_salary
-  - internship_work_hour
-  - internship_avoid
-  - internship_requirement_for_credit
-  - internship_role_and_responsibility
-
-responses:
-  utter_greet:
-    - text: "Hey! How are you?"
-
-  utter_cheer_up:
-    - text: "Here is something to cheer you up:"
-      image: "https://i.imgur.com/nGF1K8f.jpg"
-
-  utter_did_that_help:
-    - text: "Did that help you?"
-
-  utter_happy:
-    - text: "Great, carry on!"
-
-  utter_goodbye:
-    - text: "Bye"
-
-  utter_iamabot:
-    - text: "I am a bot, powered by Rasa."
-
-  utter_internship_definition:
-    - text: "An internship is an on-site work experience that is either directly related to your major field of study or your career interest.  It can be paid or unpaid, and held during the summer or throughout the academic year."
-
-  utter_internship_benefit:
-    - text: "An internship gives you the opportunity to:
-    Gain valuable work experience before you graduate;
-    Develop new skills and refine others;
-    Apply knowledge gained from coursework to on-the-job situations;
-    Reality-test tentative career choices;
-    Meet and work with professionals, establishing contacts for letters of reference and networking;
-    Experience new work environments;
-    Earn money for tuition and expenses."
-
-    - text: "While internships have often been considered optional, more and more students are finding that without internships, they are far less marketable for the post-graduation job market than their counterparts who have internship experience. An internship will help you attain new 'real world' job skills that complement your academic work and make you more competitive in the job market. Also, internships let you try o a career field or industry to see how well it fits you, your interests, values, and talents. You'll also have wonderful opportunities to start building a network of professionals who can serve as employment references for you, or be sources for future job leads. Probably most impressive opportunity is that some interns get asked to continue full-time employment at their internship site. Regardless, just having an internship experience will make the first post-graduation job easier to get, and it may increase your chances for a larger salary."
-
-  utter_internship_how_to_find:
-    - text: 'The most effective internship searches utilize a variety of different search strategies. A great place to start is the Career Center website - many Internship listings are available online via Handshake. You can search your interests by keyword(s). (You may also want to use the word "intern" or "internship" in your search.) You will find information about additional internship opportunities elsewhere on this website.
-
-If you want to learn more about internships, review internships.berkeley.edu, and check out our Job & Internship Guide.
-
-Also, take advantage of all your networking opportunities. In addition to making contacts through friends, family, current/former employers, classmates, and faculty members, there are many other networking avenues you can pursue. A great place to start is the @cal Career Network, a database of Cal alumni. You may also learn about internship openings through newspapers, newsletters, job fairs, work/study abroad programs, hometown contacts, professional associations, student organizations, trade magazines, community service/volunteer groups, and your major department office.
-
-While there is a great deal of information available, you must be persistent in your internship search. Start early and seek out help from a career counselor. Have a plan that includes a great resume and cover letter, appropriate follow-up, and good record keeping. Be prepared, open-minded, flexible, and professional. Its up to you to make all your contacts count!'
-
-  utter_internship_when:
-    - text: "With respect to which year of academic study is best, the second semester of your freshman year is not too soon. Allow yourself at least one semester of academic study to adjust to the rigors of life at UC Berkeley. Then, depending on your major, GPA, and course load requirements, you may be ready to intern. Remember that your academic work is always your first priority.
-
-With respect to which point during the year is best, that is somewhat relative to your chosen career field. The Career Center receives internship listings continually, making it easier for you to access opportunities that span various times throughout the year. However, employers in some industries, such as banking and professional services, typically recruit in the fall to fill internship positions for the following summer. Whereas, spring semester is still an active, and critical part of most employer’s recruiting season. We encourage you to attend the Internship & Summer Job Fair (typically held in mid-February) and to engage in On-Campus Recruiting (OCR) during the Spring semester when many employers hire for summer internship.
-
-As a rule of thumb, it's advisable to begin your internship search at least one semester prior to your desired placement. The key consideration is to allow yourself ample time to respond to listed positions and to initiate contacts on your own as well. Lead time can give you a competitive edge when it comes to composing an effective cover letter and tailoring your resume to a desired internship."
-
-  utter_internship_academic_credit:
-    - text: "It is possible to get academic credit for your internship, through certain courses offered by various academic departments. Only academic departments can offer credit, and policies differ greatly from one department to the next. Often your internship must relate directly to your major and will require you to complete a substantial research project or writing component as part of special studies course. For more information see Academic Credit.
-
-Another means of obtaining academic credit for your internship is the U.S. Independent Summer Internship Credit Option program which is offered through Berkeley Summer Sessions and supported by the Career Center.
-
-Keep in mind that some employers require students to receive academic credit as a form of 'payment' due to liability issues, but may also be willing to classify you as a volunteer if receiving credit is not an option. Please see the internship liability issues (PDF) with helpful information for advisors & students.
-
-There are different requirements for International students who wish to obtain work authorization using the academic credit option. You should consult an advisor at the Berkeley International Office.
-"
-
-  utter_internship_with_no_experience:
-    - text: "Employers value skills developed through academic work, volunteer experiences, extracurricular experiences, or other experiences which demonstrate skills useful in work. Not all of these skills are job type specific; some of these skills are general such as communication skills and analytical skills, and can transfer to different settings. And routine types of student jobs can demonstrate to employers that you have been a successful employee. Obtaining internships and is another great way to bridge this gap.
-
-If a job does require some very specific experience, you might consider finding a more routine position in a setting similar to where you would eventually like to hold a job with greater responsibilities."
-
-  utter_internship_how_to_find_good_job:
-    - text: "In addition to looking at our job listings diligently, network with people who may have contact suggestions for you, approach employers that are of interest to you directly, be sure you have put your best effort into writing your resume and are prepared to handle interview questions well. Consider being more flexible if you are having difficulty. For a summer position, can you consider other geographical areas? Would you be able to work part-time year-round since these positions are easier to find than summer only positions? Be sure to look at our Job Search information. Talk to one of our Career Counselors if you need additional help with your job search."
-
-  utter_internship_salary:
-    - text: "Salaries vary according to experience and skills required, year in school, type of position, type of employer, and location. For student jobs here in the San Francisco Bay Area, it is not unusual to find positions of $15.50/hour and up (substantially higher for special skills and significant experience). Internships can be both paid and unpaid depending on the same factors mentioned above."
-
-  utter_internship_work_hour:
-    - text: "If possible, wait to commit to an internship or job until you have a feeling for how much time you have beyond coursework, extracurricular activities, and some time for yourself. And note that our office receives job listings year-round and also receives short-term, project positions which do not require a long-term commitment. When classes are in session, students are advised to work no more than 20 hours/week."
-  
-  utter_internship_avoid:
-    - text: >
-        Unless you're seeking office experience specifically, avoid internships described using phrases such as "office work," "data entry," or "unspecified computer work." These internships may involve only administrative or clerical tasks.
-        Avoid internships described as "shadowing" or "observing" as you may not be able to work hands-on.
-        Avoid internships described as "promotions" unless you desire to go into event planning. These positions usually involve, for example, having interns hand out bumper stickers at an event.
-
-  utter_internship_requirement_to_get_credit:
-    - text: "Students must complete and submit an Internship Contract with the appropriate faculty approval and signatures, on or before the deadlines provided by the career Planning Center. "
-
-  utter_internship_role_and_responsibility:
-    - text: "Students must register and pay for internship credits as they would for any course sponsored by the College. Students must obtain the required internship forms from the Career Planning Center (or download them from the Career Center website) including the Contract, Guidelines, and Statement of Intent. The Contract outlines the internship dates, hours, job description and written assignment in addition to all required signatures. Student must provide all information requested on the Contract, including signatures and an internship description, before returning all forms to the Career Planning Center. An internship student will complete all required assignments and submit directly to faculty supervisor by the deadlines specified."
-
+version: '2.0'
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
+intents:
+- internship_benefit
+- internship_how_to_find
+- internship_what_is
+- internship_role_and_responsibility
+- greet
+- goodbye
+- affirm
+- deny
+- mood_great
+- mood_unhappy
+- bot_challenge
+- internship_when
+- internship_academic_credit
+- internship_no_experience
+- internship_how_to_find_good_job
+- internship_salary
+- internship_work_hour
+- internship_avoid
+- internship_requirement_for_credit
+responses:
+  utter_greet:
+  - text: Hey! How are you?
+  utter_cheer_up:
+  - text: 'Here is something to cheer you up:'
+    image: https://i.imgur.com/nGF1K8f.jpg
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_happy:
+  - text: Great, carry on!
+  utter_goodbye:
+  - text: Bye
+  utter_iamabot:
+  - text: I am a bot, powered by Rasa.
+  utter_internship_definition:
+  - text: An internship is an on-site work experience that is either directly related to your major field of study or your career interest.  It can be paid or unpaid, and held during the summer or throughout the academic year.
+  utter_internship_benefit:
+  - text: 'An internship gives you the opportunity to: Gain valuable work experience before you graduate; Develop new skills and refine others; Apply knowledge gained from coursework to on-the-job situations; Reality-test tentative career choices; Meet and work with professionals, establishing contacts for letters of reference and networking; Experience new work environments; Earn money for tuition and expenses.'
+  - text: While internships have often been considered optional, more and more students are finding that without internships, they are far less marketable for the post-graduation job market than their counterparts who have internship experience. An internship will help you attain new 'real world' job skills that complement your academic work and make you more competitive in the job market. Also, internships let you try o a career field or industry to see how well it fits you, your interests, values, and talents. You'll also have wonderful opportunities to start building a network of professionals who can serve as employment references for you, or be sources for future job leads. Probably most impressive opportunity is that some interns get asked to continue full-time employment at their internship site. Regardless, just having an internship experience will make the first post-graduation job easier to get, and it may increase your chances for a larger salary.
+  utter_internship_how_to_find:
+  - text: |-
+      The most effective internship searches utilize a variety of different search strategies. A great place to start is the Career Center website - many Internship listings are available online via Handshake. You can search your interests by keyword(s). (You may also want to use the word "intern" or "internship" in your search.) You will find information about additional internship opportunities elsewhere on this website.
+      If you want to learn more about internships, review internships.berkeley.edu, and check out our Job & Internship Guide.
+      Also, take advantage of all your networking opportunities. In addition to making contacts through friends, family, current/former employers, classmates, and faculty members, there are many other networking avenues you can pursue. A great place to start is the @cal Career Network, a database of Cal alumni. You may also learn about internship openings through newspapers, newsletters, job fairs, work/study abroad programs, hometown contacts, professional associations, student organizations, trade magazines, community service/volunteer groups, and your major department office.
+      While there is a great deal of information available, you must be persistent in your internship search. Start early and seek out help from a career counselor. Have a plan that includes a great resume and cover letter, appropriate follow-up, and good record keeping. Be prepared, open-minded, flexible, and professional. Its up to you to make all your contacts count!
+  utter_internship_when:
+  - text: |-
+      With respect to which year of academic study is best, the second semester of your freshman year is not too soon. Allow yourself at least one semester of academic study to adjust to the rigors of life at UC Berkeley. Then, depending on your major, GPA, and course load requirements, you may be ready to intern. Remember that your academic work is always your first priority.
+      With respect to which point during the year is best, that is somewhat relative to your chosen career field. The Career Center receives internship listings continually, making it easier for you to access opportunities that span various times throughout the year. However, employers in some industries, such as banking and professional services, typically recruit in the fall to fill internship positions for the following summer. Whereas, spring semester is still an active, and critical part of most employer’s recruiting season. We encourage you to attend the Internship & Summer Job Fair (typically held in mid-February) and to engage in On-Campus Recruiting (OCR) during the Spring semester when many employers hire for summer internship.
+      As a rule of thumb, it's advisable to begin your internship search at least one semester prior to your desired placement. The key consideration is to allow yourself ample time to respond to listed positions and to initiate contacts on your own as well. Lead time can give you a competitive edge when it comes to composing an effective cover letter and tailoring your resume to a desired internship.
+  utter_internship_academic_credit:
+  - text: |-
+      It is possible to get academic credit for your internship, through certain courses offered by various academic departments. Only academic departments can offer credit, and policies differ greatly from one department to the next. Often your internship must relate directly to your major and will require you to complete a substantial research project or writing component as part of special studies course. For more information see Academic Credit.
+      Another means of obtaining academic credit for your internship is the U.S. Independent Summer Internship Credit Option program which is offered through Berkeley Summer Sessions and supported by the Career Center.
+      Keep in mind that some employers require students to receive academic credit as a form of 'payment' due to liability issues, but may also be willing to classify you as a volunteer if receiving credit is not an option. Please see the internship liability issues (PDF) with helpful information for advisors & students.
+      There are different requirements for International students who wish to obtain work authorization using the academic credit option. You should consult an advisor at the Berkeley International Office. 
+  utter_internship_with_no_experience:
+  - text: |-
+      Employers value skills developed through academic work, volunteer experiences, extracurricular experiences, or other experiences which demonstrate skills useful in work. Not all of these skills are job type specific; some of these skills are general such as communication skills and analytical skills, and can transfer to different settings. And routine types of student jobs can demonstrate to employers that you have been a successful employee. Obtaining internships and is another great way to bridge this gap.
+      If a job does require some very specific experience, you might consider finding a more routine position in a setting similar to where you would eventually like to hold a job with greater responsibilities.
+  utter_internship_how_to_find_good_job:
+  - text: In addition to looking at our job listings diligently, network with people who may have contact suggestions for you, approach employers that are of interest to you directly, be sure you have put your best effort into writing your resume and are prepared to handle interview questions well. Consider being more flexible if you are having difficulty. For a summer position, can you consider other geographical areas? Would you be able to work part-time year-round since these positions are easier to find than summer only positions? Be sure to look at our Job Search information. Talk to one of our Career Counselors if you need additional help with your job search.
+  utter_internship_salary:
+  - text: Salaries vary according to experience and skills required, year in school, type of position, type of employer, and location. For student jobs here in the San Francisco Bay Area, it is not unusual to find positions of $15.50/hour and up (substantially higher for special skills and significant experience). Internships can be both paid and unpaid depending on the same factors mentioned above.
+  utter_internship_work_hour:
+  - text: If possible, wait to commit to an internship or job until you have a feeling for how much time you have beyond coursework, extracurricular activities, and some time for yourself. And note that our office receives job listings year-round and also receives short-term, project positions which do not require a long-term commitment. When classes are in session, students are advised to work no more than 20 hours/week.
+  utter_internship_avoid:
+  - text: |
+      Unless you're seeking office experience specifically, avoid internships described using phrases such as "office work," "data entry," or "unspecified computer work." These internships may involve only administrative or clerical tasks. Avoid internships described as "shadowing" or "observing" as you may not be able to work hands-on. Avoid internships described as "promotions" unless you desire to go into event planning. These positions usually involve, for example, having interns hand out bumper stickers at an event.
+  utter_internship_requirement_to_get_credit:
+  - text: 'Students must complete and submit an Internship Contract with the appropriate faculty approval and signatures, on or before the deadlines provided by the career Planning Center. '
+  utter_internship_role_and_responsibility:
+  - text: Students must register and pay for internship credits as they would for any course sponsored by the College. Students must obtain the required internship forms from the Career Planning Center (or download them from the Career Center website) including the Contract, Guidelines, and Statement of Intent. The Contract outlines the internship dates, hours, job description and written assignment in addition to all required signatures. Student must provide all information requested on the Contract, including signatures and an internship description, before returning all forms to the Career Planning Center. An internship student will complete all required assignments and submit directly to faculty supervisor by the deadlines specified.
+actions:
+- utter_internship_benefit
+- utter_internship_definition
+- utter_internship_how_to_find
+- utter_internship_role_and_responsibility
