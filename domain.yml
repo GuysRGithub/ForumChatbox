@@ -24,6 +24,12 @@ intents:
   - internship_work_hour
   - internship_avoid
   - internship_requirement_for_credit
+  - internship_where_and_which_places
+  - internship_about_the_assignment
+  - internship_note
+  - internship_purpose
+  - internship_result
+  - internship_content
 responses:
   utter_greet:
     - text: Hey! How are you?
@@ -77,10 +83,10 @@ responses:
     - text: 'Students must complete and submit an Internship Contract with the appropriate faculty approval and signatures, on or before the deadlines provided by the career Planning Center. '
   utter_internship_role_and_responsibility:
     - text: Students must register and pay for internship credits as they would for any course sponsored by the College. Students must obtain the required internship forms from the Career Planning Center (or download them from the Career Center website) including the Contract, Guidelines, and Statement of Intent. The Contract outlines the internship dates, hours, job description and written assignment in addition to all required signatures. Student must provide all information requested on the Contract, including signatures and an internship description, before returning all forms to the Career Planning Center. An internship student will complete all required assignments and submit directly to faculty supervisor by the deadlines specified.
-  utter_where_and_which_places_for_internship:
+  utter_internship_where_and_which_places:
     - text: Agencies, schools and companies that specialize in IT or have information technology applications, can meet the content of information communication (see attached outline), have professional instructors with professional qualifications in informatics from engineer upwards. Students are not encouraged to do practical internships in computer services (such as game services, computer rental, computer repair, and sale). The Faculty will review the locations before assigning students to practice. Each unit accepts a maximum of 6 students.
-  utter_about_the_assignment:
-    - text: Priority is given to assigning the right location by the students themselves, if a unit accepts more than 6 students, priority will be given to those students who are admitted first. Priority is given to students who study on schedule (K36). For students who cannot find a place, the Faculty will assign according to the faculty's ability, prioritize the cumulative GPA, the students who are not considered (no internship location) will do the internship. next period.
+  utter_internship_about_the_assignment:
+    - text: Priority is given to assigning the right location by the students themselves, if a unit accepts more than 6 students, priority will be given to those students who are admitted first. Priority is given to students who study on schedule. For students who cannot find a place, the Faculty will assign according to the faculty's ability, prioritize the cumulative GPA, the students who are not considered (no internship location) will do the internship. next period.
   utter_internship_note:
     - text: Students should not register for classes have class time during practical internships
   utter_internship_purpose:
@@ -94,7 +100,7 @@ responses:
     - text: |
         After finishing the internship, each group of interns must submit an internship report according to the internship report form
 
-  utter_practical_internship_content:
+  utter_internship_content:
     - text: |
         Building management information systems to serve the specific needs of the agency.
         Develop websites to introduce the agency and its areas of activity.
@@ -113,5 +119,6 @@ actions:
   - utter_internship_definition
   - utter_internship_how_to_find
   - utter_internship_role_and_responsibility
+  - action_utter_internship_plan
 forms: { }
 e2e_actions: [ ]

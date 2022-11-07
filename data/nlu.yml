@@ -153,5 +153,33 @@ nlu:
     - What should I do during an internship?
     - My responsibility of an internship
     - And what are the role and responsibility of me in an internship?
-- intent: where_and_which_places_for_internship
-- intent: about_the_assignment
+- intent: internship_where_and_which_places
+  examples: |
+    - Where and which places for internship?
+    - Which locations are available for internships?
+- intent: internship_about_the_assignment
+  examples: |
+    - More info about the assignment internship please
+    - Please provide more details about the assigned internship.
+- intent: internship_note
+  examples: |
+    - Some notes about the internship program
+    - Observations regarding the internship program
+- intent: internship_purpose
+  examples: |
+    - What is the purpose of internship?
+    - What does an internship accomplish?
+    - What is the goal of an internship?
+- intent: internship_result
+  examples: |
+    - What the students need to achieve after finish an internship?
+    - What must students accomplish after completing an internship?
+    - What do students need to accomplish after completing an internship?
+- intent: internship_content
+  examples: |
+    - What topic the students can do an internship?
+    - What are the possible internship topics for students?
+- intent: internship_plan
+  examples: |
+    - What is the schedule time of internship?
+    - What is the internship schedule time?

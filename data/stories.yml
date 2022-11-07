@@ -89,6 +89,36 @@ stories:
     - intent: internship_role_and_responsibility
     - action: utter_internship_role_and_responsibility
 
+- story: ask internship_where_and_which_places
+  steps:
+    - intent: internship_where_and_which_places
+    - action: utter_internship_where_and_which_places
+
+- story: ask internship_about_the_assignment
+  steps:
+    - intent: internship_about_the_assignment
+    - action: utter_internship_about_the_assignment
+
+- story: ask internship_note
+  steps:
+    - intent: internship_note
+    - action: utter_internship_note
+
+- story: ask internship_purpose
+  steps:
+    - intent: internship_purpose
+    - action: utter_internship_purpose
+
+- story: ask internship_result
+  steps:
+    - intent: internship_result
+    - action: utter_internship_result
+
+- story: ask internship_content
+  steps:
+    - intent: internship_content
+    - action: utter_internship_content
+
 - story: interactive_story_1
   steps:
   - intent: internship_what_is
