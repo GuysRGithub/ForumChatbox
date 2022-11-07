@@ -153,3 +153,5 @@ nlu:
     - What should I do during an internship?
     - My responsibility of an internship
     - And what are the role and responsibility of me in an internship?
+- intent: where_and_which_places_for_internship
+- intent: about_the_assignment
