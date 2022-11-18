@@ -29,6 +29,51 @@ stories:
   - intent: deny
   - action: utter_goodbye
 
+- story: story 012
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_ask_how_help
+  - intent: internship_what_is
+  - action: utter_internship_definition
+
+- story: story 013
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_ask_how_help
+  - intent: internship_how_to_find
+  - action: utter_internship_how_to_find
+
+- story: story 014
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_ask_how_help
+  - intent: internship_when
+  - action: utter_internship_when
+
+- story: story 015
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_ask_how_help
+  - intent: internship_academic_credit
+  - action: utter_internship_academic_credit
+
+- story: story 016
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_ask_how_help
+  - intent: internship_how_to_find_good_job
+  - action: utter_internship_how_to_find_good_job
+
 - story: ask internship_what_is
   steps:
     - intent: internship_what_is
