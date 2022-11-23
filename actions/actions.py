@@ -35,7 +35,7 @@ class ActionUtter(Action):
         return "action_utter_internship_plan"
 
     async def run(self, dispatcher, tracker: Tracker, domain) -> List[Dict[Text, Any]]:
-        message = f"Here are list of pending courses: "
+        message = f"Here are the schedule plan of internship: "
         json_message = {"text": message,
                         "table": {
                             "headers": [
@@ -46,9 +46,9 @@ class ActionUtter(Action):
                             "rows": [
                                 [
                                     {"class": "web-link",
-                                     "value": "TEACHER ASSOCIATES STUDENTS ON THE PURPOSE AND REQUIREMENTS OF PRACTICAL INTERNATIONAL INTERNATIONAL, INSTRUCTIONS STUDENTS TO FIND AGENCIES THAT CAN ACCEPT TTTT students."},
+                                     "value": "Teacher associates students on the purpose and requirements of practical international international, instructions students to find agencies that can accept tttt students."},
                                     {"class": "web-link", "value": "07.03.2014 – 15.03.2014"},
-                                    {"class": "web-link", "value": "GVCV of courses with SVTTT"},
+                                    {"class": "web-link", "value": "GVCV with SVTTT"},
                                 ],
                                 [
                                     {"class": "web-link",
@@ -70,7 +70,7 @@ class ActionUtter(Action):
                                 ],
                                 [
                                     {"class": "web-link",
-                                     "value": "- Student meeting, disseminating regulations. Students see the official assignment list. Students receive relevant documents for internship."},
+                                     "value": "Student meeting, disseminating regulations. Students see the official assignment list. Students receive relevant documents for internship."},
                                     {"class": "web-link", "value": "06.05. 2014"},
                                     {"class": "web-link",
                                      "value": "Bachelor of Science. Ministry. Student. Head/Deputy BM"},
