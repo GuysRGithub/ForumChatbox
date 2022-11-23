@@ -15,6 +15,7 @@ nlu:
     - goodmorning
     - goodevening
     - good afternoon
+    - Hi
 - intent: goodbye
   examples: |
     - good afternoon
@@ -51,8 +52,9 @@ nlu:
     - great
     - amazing
     - fine
+    - Fine! Thanks
     - pretty fine
-    - I am fine
+    - I am fine! Thanks
     - feeling like a king
     - wonderful
     - I am feeling very good
@@ -64,6 +66,8 @@ nlu:
     - so so perfect
     - so good
     - so perfect
+    - Fine! Thanks
+    - Fine
 - intent: mood_unhappy
   examples: |
     - my day was horrible
@@ -156,6 +160,7 @@ nlu:
     - What should I do during an internship?
     - My responsibility of an internship
     - And what are the role and responsibility of me in an internship?
+    - What is my responsibility for internship?
 - intent: internship_where_and_which_places
   examples: |
     - Where and which places for internship?
@@ -186,3 +191,19 @@ nlu:
   examples: |
     - What is the schedule time of internship?
     - What is the internship schedule time?
+- intent: internship_diff_employee
+  examples: |
+    - How is an intern different than an employee?
+    - What distinguishes an intern from a regular employee?
+- intent: internship_requirement_for_complete
+  examples: |
+    - What criteria do I need to meet in order to complete an internship?
+    - What requirements must I fulfill in order to successfully complete an internship?
+- intent: internship_how_to_choose
+  examples: |
+    - How do I choose the right internship?
+    - How can I pick the best internship?
+- intent: internship_after_finish
+  examples: |
+    - What should I do after I finish the internship?
+    - What should I do when my internship is over?

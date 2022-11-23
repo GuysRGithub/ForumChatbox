@@ -9,26 +9,6 @@ stories:
   - intent: mood_great
   - action: utter_happy
 
-- story: sad path 1
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: affirm
-  - action: utter_happy
-
-- story: sad path 2
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: deny
-  - action: utter_goodbye
-
 - story: story 012
   steps:
   - intent: greet
@@ -164,6 +144,31 @@ stories:
     - intent: internship_content
     - action: utter_internship_content
 
+- story: ask internship_diff_employee
+  steps:
+    - intent: internship_diff_employee
+    - action: utter_internship_diff_employee
+
+- story: ask internship_plan
+  steps:
+    - intent: internship_plan
+    - action: action_utter_internship_plan
+
+- story: ask internship_requirement_for_complete
+  steps:
+    - intent: internship_requirement_for_complete
+    - action: utter_internship_requirement_for_complete
+
+- story: ask internship_after_finish
+  steps:
+    - intent: internship_after_finish
+    - action: utter_internship_after_finish
+
+- story: ask internship_how_to_choose
+  steps:
+    - intent: internship_how_to_choose
+    - action: utter_internship_how_to_choose
+
 - story: interactive_story_1
   steps:
   - intent: internship_what_is
@@ -174,3 +179,14 @@ stories:
   - action: utter_internship_how_to_find
   - intent: internship_role_and_responsibility
   - action: utter_internship_role_and_responsibility
+
+- story: interactive_story_1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: internship_what_is
+  - action: utter_internship_definition
+  - intent: internship_diff_employee
+  - action: utter_internship_diff_employee
+  - intent: goodbye
+  - action: utter_goodbye
