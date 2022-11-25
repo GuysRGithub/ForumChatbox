@@ -5,69 +5,58 @@ session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
 intents:
-- internship_what_is:
-    use_entities: true
-- internship_diff_employee:
-    use_entities: true
-- deny:
-    use_entities: true
-- greet:
-    use_entities: true
-- internship_benefit:
-    use_entities: true
-- internship_how_to_find:
-    use_entities: true
-- internship_role_and_responsibility:
-    use_entities: true
-- goodbye:
-    use_entities: true
-- affirm:
-    use_entities: true
-- mood_great:
-    use_entities: true
-- mood_unhappy:
-    use_entities: true
-- bot_challenge:
-    use_entities: true
-- internship_when:
-    use_entities: true
-- internship_academic_credit:
-    use_entities: true
-- internship_no_experience:
-    use_entities: true
-- internship_how_to_find_good_job:
-    use_entities: true
-- internship_salary:
-    use_entities: true
-- internship_work_hour:
-    use_entities: true
-- internship_avoid:
-    use_entities: true
-- internship_requirement_for_credit:
-    use_entities: true
-- internship_where_and_which_places:
-    use_entities: true
-- internship_about_the_assignment:
-    use_entities: true
-- internship_note:
-    use_entities: true
-- internship_purpose:
-    use_entities: true
-- internship_result:
-    use_entities: true
-- internship_content:
-    use_entities: true
-- internship_plan:
-    use_entities: true
-- internship_requirement_for_complete:
-    use_entities: true
-- internship_how_to_choose:
-    use_entities: true
-- internship_after_finish:
-    use_entities: true
+  - internship_benefit
+  - internship_how_to_find
+  - internship_what_is
+  - internship_role_and_responsibility
+  - greet
+  - thankyou
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - internship_when
+  - internship_academic_credit
+  - internship_no_experience
+  - internship_how_to_find_good_job
+  - internship_salary
+  - internship_work_hour
+  - internship_avoid
+  - internship_requirement_for_credit
+  - internship_where_and_which_places
+  - internship_about_the_assignment
+  - internship_note
+  - internship_purpose
+  - internship_result
+  - internship_content
+  - internship_plan
+  - internship_requirement_for_complete
+  - internship_how_to_choose
+  - internship_after_finish
+  - internship_diff_employee
 entities: []
 slots: {}
 responses:
+  utter_you_are_welcome:
+    - text: You are welcome.
+    - text: My pleasure
+    - text: I’m happy to help
+    - text: I’m glad to help
+    - text: I’m happy to be of assistance
+    - text: Happy to be of service
+    - text: I’m sure you’d do the same for me
+    - text: It was nothing. I glad can make you happy.
+    - text: No problem
+    - text: It’s no trouble
+    - text: Anytime no problem.
+    - text: Sure
+    - text: Sure thing
+    - text: No worries
+    - text: Don’t worry about it
+    - text: Don’t mention it
+    - text: No big deal
   utter_ask_how_help:
   - text: What can I do for you?
   - text: How may I help you?

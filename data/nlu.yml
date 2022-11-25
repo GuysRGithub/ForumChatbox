@@ -16,6 +16,25 @@ nlu:
     - goodevening
     - good afternoon
     - Hi
+- intent: thankyou
+  examples: |
+    - Thank you so much.
+    - Thank you very much.
+    - Many thanks for your good support.
+    - I am grateful for your useful guideline.
+    - You are the best.
+    - Thank you for taking the time to tell me help me find the courses.
+    - OK! Tks
+    - Tks for your help
+    - Thank you very much!
+    - Ok tks!
+    - Thank
+    - Thanks
+    - Thank you
+    - Thks
+    - Thanks so much
+    - Thank buddy
+    - Thanks buddy
 - intent: goodbye
   examples: |
     - good afternoon
