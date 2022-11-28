@@ -186,6 +186,7 @@ ipython_config.py
 __pypackages__/
 
 models
+results
 *.db*
 
 # Celery stuff
