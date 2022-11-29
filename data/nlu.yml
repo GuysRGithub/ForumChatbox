@@ -114,6 +114,11 @@ nlu:
     - What is an internship?
     - What is internship?
     - Definition of internship?
+    - An internship is what?
+    - What exactly is an internship?
+    - Internship: what is it?
+    - What is an intern program?
+    - What is an internship program?
 - intent: internship_benefit
   examples: |
     - What are the benefits of an internship?
@@ -169,10 +174,21 @@ nlu:
   examples: |
     - What should I avoid in an internship?
     - Things to avoid in internship?
+    - What should I stay away from while interning?
+    - What should I steer clear of while interning?
+    - What do I need to avoid in an internship?
+    - What should I avoid when interning?
+    - What should I avoid during my internship?
+    - What should I avoid throughout my internship?
 - intent: internship_requirement_for_credit
   examples: |
     - What are the requirements in order to receive credit for my internship?
     - Requirements for receive credit for internship
+    - What conditions must be met for my internship to count toward my degree?
+    - What conditions must be met in order for my internship to be recognized?
+    - What are the prerequisites for receiving credit for my internship?
+    - What are the requirements for receiving credit for my internship?
+    - What do I need to do in order to receive credit for my internship?
 - intent: internship_role_and_responsibility
   examples: |
     - What are the role and responsibility of me in an internship?
@@ -184,45 +200,110 @@ nlu:
   examples: |
     - Where and which places for internship?
     - Which locations are available for internships?
+    - Where and how can I get an internship?
+    - Where and which internship opportunities are available?
+    - Where and where are internships available?
+    - Where and how can I find internships?
+    - What locations are currently available for internships?
 - intent: internship_about_the_assignment
   examples: |
     - More info about the assignment internship please
+    - Please provide more information about the internship assignment.
     - Please provide more details about the assigned internship.
+    - Give more information about the assigned internship, please.
+    - Give us more information about the allocated internship, please.
+    - Please provide additional information about the assigned internship.
+    - Please share additional information on the appointed internship.
+    - Please provide more details about the internship.
+    - Please provide further information about the internship assignment.
+    - I would like more information about the internship assignment.
 - intent: internship_note
   examples: |
     - Some notes about the internship program
     - Observations regarding the internship program
+    - Some thoughts about the internship program
+    - Concerns about the internship program
+    - Observations on the internship scheme
+    - A few thoughts on the internship program.
+    - Some tips for the internship program.
+    - The following advice is for the internship program.
 - intent: internship_purpose
   examples: |
     - What is the purpose of internship?
     - What does an internship accomplish?
     - What is the goal of an internship?
+    - What function does an internship serve?
+    - What is the aim of an internship?
+    - What does an internship seek to achieve?
 - intent: internship_result
   examples: |
     - What the students need to achieve after finish an internship?
     - What must students accomplish after completing an internship?
     - What do students need to accomplish after completing an internship?
+    - What should students do after completing an internship?
+    - What must I accomplish once my internship are complete?
+    - What must students accomplish once their internships are complete?
 - intent: internship_content
   examples: |
     - What topic the students can do an internship?
+    - What areas of study are available for internships?
+    - What subjects may students choose for their internships?
+    - What kind of topics can the students do an internship on?
     - What are the possible internship topics for students?
+    - What topics can I do an internship on?
+    - Topics students may choose to do an internship on
+    - What subjects am I able to intern in?
 - intent: internship_plan
   examples: |
     - What is the schedule time of internship?
     - What is the internship schedule time?
+    - How long is the internship scheduled to last?
+    - What is the schedule for internships?
+    - What timetable applies to internships?
+    - Which schedule is applicable to internships?
+    - What is the timeframe for internships?
+    - What is the internship timetable?
 - intent: internship_diff_employee
   examples: |
     - How is an intern different than an employee?
     - What distinguishes an intern from a regular employee?
+    - What distinguishes an intern from an employee?
+    - What distinguishes an intern from a regular employee?
+    - What distinguishes an intern from a worker?
+    - What makes an intern different from an employee?
+    - What separates an intern from a regular employee?
+    - What distinguishes an intern from a full-time employee?
+    - How are interns and full-time employees different from one another?
+    - How do full-time professionals and interns vary from each other?
 - intent: internship_requirement_for_complete
   examples: |
     - What criteria do I need to meet in order to complete an internship?
     - What requirements must I fulfill in order to successfully complete an internship?
+    - What requirements must I satisfy in order to finish an internship?
+    - How do I fulfill the requirements for an internship?
+    - What criteria do I need to meet in order to be considered for an internship?
+    - What are the requirements for finishing an internship?
+    - What conditions must I meet in order to complete an internship?
+    - What are the requirements for completing an internship?
 - intent: internship_how_to_choose
   examples: |
     - How do I choose the right internship?
     - How can I pick the best internship?
+    - How do I pick the best internship for me?
+    - Which internship should I choose?
+    - How should I choose my internship?
+    - How do you choose the best internship for my career?
+    - How do you decide which internship is ideal for my career?
+    - How do you select the greatest internship for my career?
 - intent: internship_after_finish
   examples: |
     - What should I do after I finish the internship?
     - What should I do when my internship is over?
+    - What should I do when I complete my internship?
+    - After my internship is over, what should I do?
+    - What should I do after completing my internship?
+    - What should I do after I complete my internship?
+    - After my internship is over, what should I do?
+    - After my internship comes to an end, what I should do?
+    - What should I do next after completing my internship?
+    - After completing the internship, what should I do next?
