@@ -13,79 +13,109 @@ stories:
     intent: mood_great
   - action: utter_happy
 
-- story: happy path 2
+- story: interactive_story_1
   steps:
-  - user: |
-      hello there!
-    intent: greet
-  - action: utter_greet
-  - user: |
-      amazing
-    intent: mood_great
-  - action: utter_happy
-  - user: |
-      bye-bye!
-    intent: goodbye
+  - intent: internship_what_is
+  - action: utter_internship_definition
+  - intent: internship_benefit
+  - action: utter_internship_benefit
+  - intent: internship_how_to_find
+  - action: utter_internship_how_to_find
+  - intent: internship_role_and_responsibility
+  - action: utter_internship_role_and_responsibility
+  - intent: thankyou
+  - action: utter_you_are_welcome
+  - intent: goodbye
   - action: utter_goodbye
 
-- story: sad path 1
+- story: interactive_story_1
   steps:
-  - user: |
-      hello
-    intent: greet
+  - intent: greet
   - action: utter_greet
-  - user: |
-      not good
-    intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - user: |
-      yes
-    intent: affirm
-  - action: utter_happy
-
-- story: sad path 2
-  steps:
-  - user: |
-      hello
-    intent: greet
-  - action: utter_greet
-  - user: |
-      not good
-    intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - user: |
-      not really
-    intent: deny
+  - intent: internship_what_is
+  - action: utter_internship_definition
+  - intent: internship_diff_employee
+  - action: utter_internship_diff_employee
+  - intent: thankyou
+  - action: utter_you_are_welcome
+  - intent: goodbye
   - action: utter_goodbye
 
-- story: sad path 3
+- story: interactive_story_1
   steps:
-  - user: |
-      hi
-    intent: greet
+  - intent: internship_purpose
+  - action: utter_internship_purpose
+  - intent: internship_note
+  - action: utter_internship_note
+  - intent: internship_about_the_assignment
+  - action: utter_internship_about_the_assignment
+  - intent: internship_where_and_which_places
+  - action: utter_internship_where_and_which_places
+  - intent: thankyou
+  - action: utter_you_are_welcome
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: interactive_story_1
+  steps:
+  - intent: greet
   - action: utter_greet
-  - user: |
-      very terrible
-    intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - user: |
-      no
-    intent: deny
+  - intent: internship_what_is
+  - action: utter_internship_definition
+  - intent: internship_role_and_responsibility
+  - action: utter_internship_role_and_responsibility
+  - intent: thankyou
+  - action: utter_you_are_welcome
+  - intent: goodbye
   - action: utter_goodbye
 
-- story: say goodbye
+- story: interactive_story_1
   steps:
-  - user: |
-      bye-bye!
-    intent: goodbye
+  - intent: greet
+  - action: utter_greet
+  - intent: internship_requirement_for_credit
+  - action: utter_internship_requirement_for_credit
+  - intent: internship_avoid
+  - action: utter_internship_avoid
+  - intent: internship_work_hour
+  - action: utter_internship_work_hour
+  - intent: internship_salary
+  - action: utter_internship_salary
+  - intent: internship_how_to_find_good_job
+  - action: utter_internship_how_to_find_good_job
+  - intent: thankyou
+  - action: utter_you_are_welcome
+  - intent: goodbye
   - action: utter_goodbye
 
-- story: bot challenge
+- story: interactive_story_1
   steps:
-  - user: |
-      are you a bot?
-    intent: bot_challenge
-  - action: utter_iamabot
+  - intent: greet
+  - action: utter_greet
+  - intent: internship_work_hour
+  - action: utter_internship_work_hour
+  - intent: internship_salary
+  - action: utter_internship_salary
+  - intent: internship_how_to_find_good_job
+  - action: utter_internship_how_to_find_good_job
+  - intent: internship_no_experience
+  - action: utter_internship_with_no_experience
+  - intent: internship_academic_credit
+  - action: utter_internship_academic_credit
+  - intent: thankyou
+  - action: utter_you_are_welcome
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: interactive_story_1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: internship_benefit
+  - action: utter_internship_benefit
+  - intent: internship_role_and_responsibility
+  - action: utter_internship_role_and_responsibility
+  - intent: thankyou
+  - action: utter_you_are_welcome
+  - intent: goodbye
+  - action: utter_goodbye
