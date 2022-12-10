@@ -141,6 +141,8 @@ nlu:
     - When to look for an internship?
     - When should I apply for an internship
     - When should I do internship?
+    - Please suggest good time to find internship
+    - Suggest best time to find internship
 - intent: internship_academic_credit
   examples: |
     - Can I get academic credit for my internship?
@@ -205,6 +207,8 @@ nlu:
     - Where and where are internships available?
     - Where and how can I find internships?
     - What locations are currently available for internships?
+    - Please suggest few places to find good internship
+    - Please provide some places to find internship
 - intent: internship_about_the_assignment
   examples: |
     - More info about the assignment internship please
