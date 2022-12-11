@@ -208,6 +208,9 @@ nlu:
     - Where and how can I find internships?
     - What locations are currently available for internships?
     - Please suggest few places to find good internship
+    - Please suggest few places to find internship
+    - Please suggest places to find internship
+    - Please suggest companies to find internship
     - Please provide some places to find internship
 - intent: internship_about_the_assignment
   examples: |
