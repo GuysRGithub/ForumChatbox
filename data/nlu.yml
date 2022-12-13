@@ -314,3 +314,12 @@ nlu:
     - After my internship comes to an end, what I should do?
     - What should I do next after completing my internship?
     - After completing the internship, what should I do next?
+- intent: internship_thoi_gian
+  examples: |
+    - Thoi gian thuc tap thuc te la bao lau
+    - Bao lau thi hoan thanh thuc tap thuc te
+
+- intent: internship_lam_sao
+  examples: |
+    - Lam sao tim duoc cong ty thuc tap
+    - Lam the nao de tim duoc cong ty thuc tap
