@@ -13,7 +13,7 @@ WORKDIR /app
 
 RUN pip install --no-cache-dir --upgrade pip
 
-RUN pip install -r requirements.txt
+RUN pip install rasa==2.8.25 SQLAlchemy==1.3.22
 
 ADD config.yml config.yml
 ADD domain.yml domain.yml
