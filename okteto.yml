@@ -1,6 +1,6 @@
 name: rasa
 command: bash
-volumns:
+volumes:
 - /root/.cache/pip
 sync:
 - .:app
