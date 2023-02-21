@@ -1,7 +1,7 @@
 version: '3.8'
 services:
   rasa:
-    image: rasa-bot:latest
+    image: guysrobotdevops/rasa-forum:latest
     working_dir: /app
     build: "./"
     restart: always
@@ -16,7 +16,7 @@ services:
     - all
 
   rasa-actions:
-    image: rasa-bot:latest
+    image: guysrobotdevops/rasa-forum:latest
     working_dir: /app
     build: './'
     restart: always

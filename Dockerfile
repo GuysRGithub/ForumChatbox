@@ -11,9 +11,9 @@ RUN apt-get update \
 
 WORKDIR /app
 
-RUN pip install --no-cache-dir --upgrade pip
+RUN python -m pip install --no-cache-dir --upgrade pip
 
-RUN pip install rasa==2.8.25 SQLAlchemy==1.3.22
+RUN python -m pip install rasa==2.8.25 SQLAlchemy==1.3.22
 
 ADD config.yml config.yml
 ADD domain.yml domain.yml
