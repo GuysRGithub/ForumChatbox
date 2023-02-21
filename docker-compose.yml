@@ -1,4 +1,4 @@
-version: '3.8'
+version: '3.4'
 services:
   rasa:
     image: guysrobotdevops/rasa-forum:latest
@@ -9,9 +9,10 @@ services:
     - ./actions:/app/actions
     - ./data:/app/data
     - ./models:/app/models
-    command: bash -c "rasa train && rasa run --enable-api --cors \"*\" --debug"
+    command: bash -c "rm -r models/* && rasa train && rasa run --enable-api --cors \"*\" --debug"
     ports:
     - '5005:5005'
+    public: true
     networks:
     - all
 
