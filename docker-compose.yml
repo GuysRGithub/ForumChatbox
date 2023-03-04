@@ -1,16 +1,22 @@
 version: '3.4'
 services:
   rasa:
-    image: rasa/rasa:2.8.25-full
-    ports:
-      - '5005:5005'
+    image: rasa-server-okteto:latest
+    working_dir: /app
+    build: "./"
+    restart: always
     volumes:
-      - ./:/app
-    command:
-      - run
+      - ./actions:/app/actions
+      - ./data:/app/data
+      - ./models:/app/models
+    command: bash -c "rm -rf models/* && rm -rf .rasa/* && rasa train && rasa run --enable-api --cors \"*\" -p 8080 --debug"
+    ports:
+      - '5005:5005' #external:internal
+    networks:
+      - all
 
   rasa-actions:
-    image: guysrobotdevops/rasa-forum:latest
+    image: rasa-server-okteto:latest
     working_dir: /app
     build: './'
     restart: always
@@ -19,4 +25,6 @@ services:
     ports:
     - '5055:5055'
     command: bash -c "rasa run actions"
+    networks:
+      - all
 
