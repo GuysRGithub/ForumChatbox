@@ -1,19 +1,13 @@
 version: '3.4'
 services:
   rasa:
-    image: guysrobotdevops/rasa-forum:latest
-    working_dir: /app
-    build: "./"
-    restart: always
-    volumes:
-    - ./actions:/app/actions
-    - ./data:/app/data
-    - ./models:/app/models
-    command: bash -c "rm -r models/* && rasa train && rasa run --enable-api --cors \"*\" --debug"
+    image: rasa/rasa:2.8.25-full
     ports:
-    - '5005:5005'
-    networks:
-    - all
+      - '5005:5005'
+    volumes:
+      - ./:/app
+    command:
+      - run
 
   rasa-actions:
     image: guysrobotdevops/rasa-forum:latest
@@ -24,13 +18,5 @@ services:
     - ./actions:/app/actions
     ports:
     - '5055:5055'
-    networks:
-    - all
     command: bash -c "rasa run actions"
-
-networks:
-  all:
-    driver: bridge
-    driver_opts:
-      com.docker.network.enable_ipv6: "true"
 
